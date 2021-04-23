@@ -1,0 +1,31 @@
+<html>
+  <head>
+     <script src="https://cdn.jsdelivr.net/npm/axios"></script>
+     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  </head>
+  <body>
+    <div id="app">
+      <input type="button" value="Next" v-on:click="nextWord"/>
+      <div>{{word.word}}</div>
+      <div>{{word.chinese}}</div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    var vue = new Vue({
+      el:"#app",
+      data:{word:{}},
+      methods:{
+        nextWord:function(){
+          var that = this;
+          axios.get('/api/getAnyWord')
+          .then(function (response) {
+            that.word = response.data;
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+        },
+      },
+    });
+  </script>
+</html>

@@ -1,0 +1,10 @@
+{
+  "fcRouteDefault": [
+    {
+      "apiUri": "/*",
+      "fcHandler": "image",
+      "httpMethod": "ANY"
+    }
+  ],
+  "serviceConfig": {}
+}
