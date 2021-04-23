@@ -1,7 +1,7 @@
 # aliyun_yunkaifapingtai_demo
 阿里云云开发平台演示案例
 
-阿里云云开发平台地址：(https://workbench.aliyun.com/)[https://workbench.aliyun.com/?source=5176.11533457&userCode=n9nebfal]
+阿里云云开发平台地址：[https://workbench.aliyun.com/](https://workbench.aliyun.com/?source=5176.11533457&userCode=n9nebfal)
 
 ## 录音文件识别（极速版）开通方法 ##
 1. 阿里云：产品→人工智能→智能语音交互→录音文件识别→【立即开通】，【录音文件识别（极速版）】选择【商用】。
