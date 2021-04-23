@@ -10,6 +10,13 @@
 4. 选中用户，点击【添加权限】，选中权限“AliyunNLSSpeechServiceAccess”.
 
 ## 代码使用方法： ##
-1. 把源代码从github上clone或者download下来。 
+1. 把源代码从github上把“上课代码.zip”下载下来，解压到硬盘。 
 2. 在“阿里云-云开发平台” 上新建一个应用，语言选择java，不选择模板。
-3. 把代码粘贴到云开发IDE上，修改RAM、录音文件识别相关的配置，按照视频中讲的运行及部署即可。
+3. 把代码中MainController.java粘贴到云开发IDE上，把resources下的static文件夹粘贴到云开发IDE对应目录下。
+4. 修改RAM、录音文件识别相关的配置.
+
+aliyun.ai.speech.appKey=xxx
+aliyun.ai.speech.accessKey_ID=xxx
+aliyun.ai.speech.accessKey_Secret=xxx
+
+6. 按照视频中讲的运行及部署即可。
