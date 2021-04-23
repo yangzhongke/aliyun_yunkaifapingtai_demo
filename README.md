@@ -16,7 +16,9 @@
 4. 修改RAM、录音文件识别相关的配置.
 
 aliyun.ai.speech.appKey=xxx
+
 aliyun.ai.speech.accessKey_ID=xxx
+
 aliyun.ai.speech.accessKey_Secret=xxx
 
 6. 按照视频中讲的运行及部署即可。
